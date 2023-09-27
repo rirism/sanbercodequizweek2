@@ -1,0 +1,10 @@
+{
+    "validUser": {
+      "email": "rara@gail.com",
+      "password": "s*u@hm99ifvjL"
+    },
+    "wrongPassword": {
+        "email": "rara@gail.com",
+        "password": "s*u@9ifvj"
+    }
+  }

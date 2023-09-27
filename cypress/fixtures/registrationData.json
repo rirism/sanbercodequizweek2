@@ -1,0 +1,34 @@
+{
+  "validUser": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "janganlupagantiemail@example.com",
+    "password": "password123",
+    "confirmPassword": "password123",
+    "gender": "M"
+  },
+  "existingUser": {
+    "firstName": "Existing",
+    "lastName": "User",
+    "email": "test@example.com",
+    "password": "riris123",
+    "confirmPassword": "riris123",
+    "gender": "F"
+  },
+  "under6characterPasswordUser": {
+    "firstName": "Invalid",
+    "lastName": "User",
+    "email": "invalid@example.com",
+    "password": "abc",
+    "confirmPassword": "abc",
+    "gender": "F"
+  },
+  "unmatchingPasswordUser": {
+    "firstName": "Invalid",
+    "lastName": "User",
+    "email": "invalid@example.com",
+    "password": "abc1234567890",
+    "confirmPassword": "cba0987654321",
+    "gender": "F"
+  }
+}
